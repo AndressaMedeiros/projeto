@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#todo{
+	width: 1200px;
+	min-height: 1100px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black ;
+
+}
+
+#cabecalho{
+	height: 150px;
+	
+}
+
+#menu{
+	
+	height: 50px;
+	
+}
+
+#corpo{
+
+	
+	
+	
+	
+}
+#listra{
+	background-color:#3399CC;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.lis{
+	width: 70px;
+	height: 70px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.barra{
+	margin-right: auto;
+	margin-left: 130px;
+	color: #3E3E3E
+
+}
+#rodape{
+	background-color:#3399CC;
+}
+
+.roda{
+	margin-left: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+.rodas{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 30px;
+
+}
+a{
+	text-decoration: none;
+}
+
+#logo{
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+
+#titulologo{
+	float: left;
+	color: #F9E846;
+	margin-top: 30px;
+	font-size: 80px;
+}
+
+.galeria{
+			
+			width: 1200px;
+			height: 500px;
+			position: relative;
+			overflow: hidden;
+			margin-top: 5px;
+			margin-right: auto;
+	margin-left: auto;
+
+		}
+		.foto{
+
+			position: absolute;
+			opacity: 0;
+			animation-name: animacao;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			width: 1200px;
+
+			height: 500px;
+			margin-right: auto;
+	margin-left: auto;
+		}
+		@keyframes animacao{
+			25%{
+				opacity: 1;
+				transform:scale(1.1,1.1);
+			}
+			50%{
+				opacity: 0;
+			}
+		}
+		.foto:nth-child(1){
+
+		}
+		.foto:nth-child(2){
+			animation-delay: 5s;
+		}
+		.foto:nth-child(3){
+			animation-delay: 10s;
+		}
+		.foto:nth-child(4){
+			animation-delay: 15s;
+		}
+
+#produto{
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#produ{
+	height: 300px; 
+	width: 300px; 
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.produ{
+	
+	height: 300px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	
+}
+
+.marca{
+	font-style:italic;
+	font-weight:normal;
+	font-size:15px;
+	line-height:40px;
+	 
+	text-align: center;
+}
+
+#down{
+	margin-left: 800px;
+}
+
+#voltar-ao-topo {
+            position: fixed;
+            bottom: 2em;
+            right: 2em;
+            text-decoration: none;
+            color: white;
+            width: 50px;
+
+            font-size: 12px;
+            padding: 1em;
+            display: none;
+        }
+        
